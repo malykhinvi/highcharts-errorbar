@@ -7,7 +7,7 @@
 */
 
 /*global HighchartsAdapter*/
-
+var Highcharts = require('highcharts');
 (function (Highcharts, UNDEFINED) {
 
 
