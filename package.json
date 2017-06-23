@@ -4,11 +4,12 @@
   "description": "",
   "main": "highcharts-errorbar.js",
   "dependencies": {
-    "highcharts": "^5.0.11"
+    "highcharts": "^5.0.11",
+    "less": "2.7.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/youngmd/highcharts-errorbar.git"
   },
-  "license": "MIT"
+  "license": "Creative Commons Attribution"
 }
