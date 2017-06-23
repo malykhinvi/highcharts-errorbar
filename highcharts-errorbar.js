@@ -10,7 +10,6 @@
 var Highcharts = require('highcharts');
 (function (Highcharts, UNDEFINED) {
 
-
     var defaultOptions = Highcharts.getOptions(),
         defaultPlotOptions = Highcharts.getOptions().plotOptions,
         each = Highcharts.each,
@@ -32,7 +31,7 @@ var Highcharts = require('highcharts');
         color: '#000000',
         grouping: false,
         lineWidth: 1,
-        linkedTo: ':previous',
+        showInLegend: false,
         threshold: null,
         whiskerLength: 5,
         format: 'x'
