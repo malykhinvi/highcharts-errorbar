@@ -1,13 +1,3 @@
-/**
- * Highcharts-errobar v1.0 (2015-07-29)
- *
- * (c) 2015 Michael Young
- *
- * License: Creative Commons Attribution
- */
-
-/*global HighchartsAdapter*/
-var Highcharts = require('highcharts');
 (function (Highcharts, UNDEFINED) {
 
     var defaultOptions = Highcharts.getOptions(),
@@ -178,4 +168,4 @@ var Highcharts = require('highcharts');
             });
         }
     });
-}(Highcharts));
+}(typeof module === 'object' && module.exports && require ? require('highcharts') : window.Highcharts));
