@@ -168,4 +168,4 @@
             });
         }
     });
-}(typeof module === 'object' && module.exports && require ? require('highcharts') : window.Highcharts));
+}(typeof module === 'object' && module.exports && typeof require === 'function' ? require('highcharts') : window.Highcharts));
