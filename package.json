@@ -4,8 +4,7 @@
   "description": "",
   "main": "highcharts-errorbar.js",
   "dependencies": {
-    "highcharts": "^6.0.7",
-    "less": "2.7.2"
+    "highcharts": "^6.2.0"
   },
   "repository": {
     "type": "git",
