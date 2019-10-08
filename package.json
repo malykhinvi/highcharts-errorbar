@@ -3,8 +3,8 @@
   "version": "0.1.1",
   "description": "",
   "main": "highcharts-errorbar.js",
-  "peerDependencies": {
-    "highcharts": "^7.2.0"
+  "dependencies": {
+    "highcharts": "^6.2.0"
   },
   "repository": {
     "type": "git",
